@@ -1,0 +1,96 @@
+:root {
+  --primary-text-color: #212121;
+  --text-color: #757575;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --secondary-white-color: rgba(255, 255, 255, 0.6);
+  --black-color: #000000;
+  --secondary-bg-color: #f5f4fa;
+  --blocks-bg-color: #2f303a;
+}
+
+body {
+  color: var(--primary-text-color);
+  background-color: var(--primary-white-color);
+}
+
+.list {
+  list-style: none;
+}
+
+/* Logo */
+.logo {
+  color: var(--black-color);
+}
+.logo-part {
+  color: var(--accent-color);
+}
+/* Site nav */
+.site-nav .link {
+  color: var(--primary-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+/* Contacts nav */
+.contacts-nav .contact {
+  color: var(--text-color);
+}
+.contacts-nav .contact:hover,
+.contacts-nav .contact:focus {
+  color: var(--accent-color);
+}
+
+/* Hero */
+.hero {
+  background-color: var(--blocks-bg-color);
+}
+.hero-title {
+  color: var(--primary-white-color);
+}
+
+/* Features */
+.features-text {
+  color: var(--text-color);
+}
+
+/* Examples */
+
+/* Team */
+.section-team {
+  background-color: var(--secondary-white-color);
+}
+.team-text {
+  color: var(--text-color);
+}
+
+/* Footer */
+.footer {
+  background-color: var(--blocks-bg-color);
+}
+.footer-adress {
+  color: var(--primary-white-color);
+}
+.footer-contacts {
+  color: var(--secondary-white-color);
+}
+
+/* Buttons */
+.button-primary {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+.button-secondary {
+  color: var(--primary-text-color);
+  background-color: var(--secondary-bg-color);
+}
+
+/* Portfolio Page */
+.projects-text {
+  color: var(--text-color);
+}
